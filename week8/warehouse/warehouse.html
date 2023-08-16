@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <h1 style="font: italic;">
+        Warehouse
+    </h1>
+    <script src="warehouse.js"></script>
+    <link href="warehouse.css" rel="stylesheet">
+    <title>
+        warehouse
+    </title>
+
+</header>
+
+
+<body id="body1">
+    <div>
+        <div id="main_box">
+            <div id="input_box">
+                <div class="worlds">Name</div>
+                <br>
+                <br>
+                <input type="text" class="boxs" placeholder="Enter Product Name" autocomplete="off"
+                    id="product_name"><br><br>
+                <div class="worlds">Amount
+                </div><br><br>
+                <input type="text" class="boxs" placeholder="Enter the amount of the product  " autocomplete="off"
+                    id="amount_number">
+
+            </div>
+            <button type="submit" id="add"><img src="plus-square.png"></button>
+            <button type="submit" id="delete"><img src="trash-2.png"></button>
+            <button type="submit" id="edit"><img src="edit-3.png"></button>
+            <button type="submit" id="done"><img src="check-circle.png"></button>
+        </div>
+        <div id="list_header">
+            <div id="items">your store items are</div> <br>
+
+        </div>
+    </div>
+    <div id="list">
+
+
+    </div>
+    <div id="sidebar">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <span onclick="openNav()" id="sidebar_button"><img src="align-right.png"></span>
+    </div>
+</body>
+
+
+
+
+</html>

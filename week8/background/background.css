@@ -1,0 +1,11 @@
+body {
+    position: absolute;
+    left: 45%;
+    bottom: 50%;
+    font-size: 100px;
+}
+
+.c {
+    height: 60px;
+    width: 130px;
+}

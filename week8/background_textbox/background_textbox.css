@@ -1,0 +1,10 @@
+body {
+    position: absolute;
+    left: 45%;
+    bottom: 50%;
+}
+#text_box{
+    height: 30px;
+    width: 200px;
+    
+}

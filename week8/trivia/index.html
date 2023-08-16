@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script src="App.js">
+
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <h3>
+                What does “www” stand for in a website browser? <span id="correct" style="visibility: hidden;">
+                    Correct</span>
+                <span id="Incorrect" style="visibility: hidden;">
+                    Incorrect</span>
+            </h3>
+            <button type="submit" class="wrong_answer" id="first-answer">Web World Wide</button>
+            <button type="submit" class="wrong_answer" id="seconed-answer">Wide Web World </button>
+            <button type="submit" class="right_answer" id="theered-answer">Web World Wide</button>
+            <button type="submit" class="wrong_answer" id="fourth-answer">Web Wide World </button>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>What countries made up the original Axis powers in World War II? <span id="correct1"
+                    style="visibility: hidden;">
+                    Correct</span>
+                <span id="Incorrect1" style="visibility: hidden;">
+                    Incorrect</span>
+            </h3>
+
+            <input type="text" id="text-answer">
+            <button type="submit" id="text-button">Click to submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

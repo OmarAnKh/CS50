@@ -1,0 +1,364 @@
+html {
+
+    background-color: white;
+}
+
+#CAP {
+    width: 15%;
+    background-color: gray;
+    position: absolute;
+    left: 70%;
+    bottom: 75%;
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#test {
+    position: absolute;
+    left: 80%;
+    bottom: 5%;
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+#test {
+    height: 300px;
+    width: 300px;
+    left: 40%;
+    bottom: 50%;
+}
+
+#section_one {
+    position: absolute;
+    bottom: 87%;
+    left: 30%;
+
+
+}
+
+@media screen and (max-width: 300px) {
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        right: 20%;
+        bottom: 100%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: absolute;
+        bottom: 85%;
+        left: 107%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 75%;
+    }
+
+    #name {
+        position: absolute;
+        top: 9%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width:601px) {
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        right: 20%;
+        bottom: 45%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: absolute;
+        bottom: 85%;
+        left: 107%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 75%;
+    }
+
+    #name {
+        position: absolute;
+        top: 9%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width:701px) {
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        left: 62%;
+        bottom: 35%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 32%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: absolute;
+        bottom: 80%;
+        left: 90%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 70%;
+    }
+
+    #name {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width:1001px) {
+
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        left: 80%;
+        bottom: -25%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: fixed;
+        bottom: 70%;
+        left: 79%;
+        box-sizing: border-box;
+        border: 2px solid black;
+
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 30%;
+    }
+
+    #name {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+
+}
+
+@media screen and (max-width: 2000px) and (min-width:1250px) {
+
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        left: 49%;
+        bottom: -1%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: fixed;
+        bottom: 74%;
+        left: 79%;
+        box-sizing: border-box;
+        border: 2px solid black;
+
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 52%;
+    }
+
+    #name {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+
+}
+
+@media screen and (max-width: 4000px) and (min-width:2000px) {
+
+    #CAP {
+        width: 50%;
+        background-color: gray;
+        position: absolute;
+        left: 49%;
+        bottom: 25%;
+        padding: 15px;
+        margin: 15px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+
+    #section_one {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        font-size: 15px;
+
+    }
+
+    #me {
+        position: fixed;
+        bottom: 74%;
+        left: 85%;
+        box-sizing: border-box;
+        border: 2px solid black;
+
+        font-size: 20px;
+    }
+
+    #first {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    #test {
+        position: absolute;
+        left: 1%;
+        bottom: 59%;
+    }
+
+    #name {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+    }
+
+}
