@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+    {{>header}}
+
+<script src="js/My-account.js"></script>
+
+
+</header>
+
+<body>
+    <div id="account">
+        <ui>
+            <il>
+                <span class="information" style="position: absolute;left: 0%;top: 1%;" >Name:</span><br><br>
+                <span class="text" id="info1">{{user}}</span>
+                <input type="checkbox" style="width: 30px;height: 30px;position: absolute;left: 11.8%;" id="checkbox1">
+            </il>
+            <il style="position: absolute;left: 25%;top: 1%;">
+                <span class="information">Email:</span><br><br>
+                <span class="text" id="info2">{{email}}</span>
+
+            </il>
+            <br><br>
+
+            <il style="position: absolute; top: 100%;">
+                <span class="information">Age:</span><br><br>
+                <span class="text" id="info3">{{age}}</span>
+                <input type="checkbox" class="edit-info" id="checkbox3">
+            </il>
+            <br><br>
+            <il style="position: absolute; top: 100%; left: 25%;">
+                <span class="information">Password:</span><br><br>
+                <span class="text" id="info4">************</span>
+
+            </il>
+            <br><br>
+            <il style="position: absolute; top: 200%;">
+                <span class="information">Address:</span><br><br>
+                <span class="text" id="info5">{{address}}</span>
+                <input type="checkbox" class="edit-info" id="checkbox5">
+            </il>
+
+            <il style="position: absolute; top: 215%; left: 25%;">
+                <button class="account-buttons" id="edit"
+                    style="background-color: white; border: none; outline-width: 0;"><img src="img/edit.png"></button>
+                <button class="account-buttons" id="done"
+                    style="background-color: white; border: none; outline-width: 0; position: absolute;left: 30%;visibility: hidden; "><img
+                        src="img/done.png"></button>
+            </il>
+            <il style="position: absolute; top: 215%; left: 30%;">
+                <button class="account-buttons" style="background-color: white; border: none; outline-width: 0;"> <img
+                        src="img/save.png">
+                </button>
+            </il>
+
+        </ui>
+    </div>
+
+</body>
+
+</html>
