@@ -132,7 +132,7 @@ li {
 }
 
 .buttons:hover {
-
+    transition-duration:  2ms; 
     transform: scale(1.1);
 
 }

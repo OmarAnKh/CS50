@@ -51,7 +51,7 @@ router.post("/users", async (req, res) => {
 router.get('/users', async (req, res) => {
     try {
         const users = await User.find();
-        console.log(users);
+        
         res.send(users);
     } catch (e) {
         res.status(500).send();
@@ -59,7 +59,7 @@ router.get('/users', async (req, res) => {
 });
 
 router.patch('/update', async (req, res) => {
-    console.log(1)
+    
     const updates = Object.keys(req.body)
     const allowedUpdates = ['name', 'address', 'age']
     const isValiOperation = updates.every((update) => allowedUpdates.includes(update))

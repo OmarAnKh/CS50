@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('PasNoMatch').style.visibility = "hidden"
     document.getElementById('emtySlot').style.visibility = "hidden"
